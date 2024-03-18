@@ -264,6 +264,7 @@ public class Main {
                 herbuSkaicius++;
                 if (herbuSkaicius == 3) {
                     herbasEile = true;
+
                 }
             } else {
                 herbuSkaicius = 0;
@@ -274,7 +275,7 @@ public class Main {
 
     private static void rezultatas(double tikimybe) {
         if (tikimybe < 0.5) {
-            System.out.print("H ");
+            System.out.print("H :)");
         } else {
             System.out.print("S ");
         }
